@@ -91,7 +91,7 @@ export default {
   },
   methods: {
     getText() {
-      let maxLength = 14
+      let maxLength = 30
       let text =
         this.label.length > maxLength
           ? this.label.substring(0, maxLength) + '...'
